@@ -8,6 +8,7 @@ import { useRef } from "react";
 import Generating from "./Generating";
 import Notification from "./Notification";
 import CompanyLogos from "./CompanyLogos";
+import Warp from "./design/Warp";
 
 const Hero = () => {
   const parallaxRef = useRef(null);
@@ -79,7 +80,7 @@ const Hero = () => {
 
             <Gradient />
           </div>
-          <div className="absolute -top-[100%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[100%] md:w-[138%] lg:-top-[104%]">
+          <div className="absolute -top-[100%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[100%] md:w-[138%] lg:-top-[100%] lg:w-[200%]">
             <img
               src={heroBackground}
               className="w-full"
